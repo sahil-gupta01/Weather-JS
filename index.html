@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h2>Weather App</h2>
+    </div>
+    
+    <div class="container">
+        <!-- div for the weather information display -->
+        <div class="weather">
+            <div class="temp">20</div>
+            <div class="time_location">
+                <p>Location</p>
+                <span class = "country">Country</span>
+                <span class = "date-time">Time , Date</span>
+            </div>
+
+            <div class="weather_condition">
+                <p><img src="" alt="img"></p>
+                <span>Condition</span>
+            </div>
+        </div>
+
+        <!-- div to send the request to backend through form -->
+        <div class="nav">
+            <form>
+                <input type="text" placeholder="Enter the location" class="searchField">
+                <button class="searchButton">Search</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
